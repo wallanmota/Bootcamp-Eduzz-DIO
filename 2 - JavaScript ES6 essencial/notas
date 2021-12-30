@@ -1,0 +1,14 @@
+JavaScript ES6
+
+ESCOPO
+
+    // Escopo globlal
+
+    {
+        // Escopo de bloco
+    }
+
+    function test(){
+        // Escopo de função
+    }
+
