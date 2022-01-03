@@ -54,4 +54,16 @@ for (let value of str){
     for (let value of obj2){
         console.log(value)
     }
-    
+
+// GENERATORS -> é possivel 'Pausar funções'
+    function* hello(){
+        console.log('Hello')
+        yield 1
+        console.log('from')
+        yield 2
+        console.log('function!')
+    }
+    const itt = hello()
+    console.log(itt.next())
+    console.log(itt.next())
+    console.log(itt.next())
