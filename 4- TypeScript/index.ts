@@ -1,7 +1,7 @@
 // Tipando parametros de funções
-function sum(a: number, b:number){
+function sum(a:number, b:number){
     return a + b
-};
+}
 
 // Interfaces
 interface iAnimal{
@@ -41,3 +41,10 @@ const animal2: iDomestico = {
     porte: 'Medio',
     tipo: 'terrestre',
 }
+
+// Tag e input
+const input = document.getElementById('input') as HTMLInputElement;
+input.addEventListener('input', (event) => {
+    const i = event.currentTarget as HTMLInputElement
+    console.log(i.value)
+})
