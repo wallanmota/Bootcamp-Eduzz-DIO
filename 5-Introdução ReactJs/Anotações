@@ -1,0 +1,25 @@
+React
+
+Configuração
+    * npm init
+    * npm install --save-dev react@16.8.6(versao) react-dom@16.8.6 react-scripts@3.0.1(monta o server)
+
+    Criar pasta public
+        Public
+            index.html
+                <div id="root"></div>
+
+    Criar pasta scr 
+        index.js -> arquivo de react (onde são feito os imports)
+        style.css -> react exige a criação do css
+
+Os Scrips do package.json devem estar conforme abaixo:
+    "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+
+  Conforme a documentação pode ser instalado com o comando 
+    * npx create-react-app my-app
