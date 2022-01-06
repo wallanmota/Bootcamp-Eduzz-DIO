@@ -23,3 +23,6 @@ Os Scrips do package.json devem estar conforme abaixo:
 
   Conforme a documentação pode ser instalado com o comando 
     * npx create-react-app my-app
+
+Boa prática:
+    nome de arquivos de Componentes, Paginas usar CamelCase
