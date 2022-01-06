@@ -16,14 +16,14 @@ function primeiroJSX(){ //JSX posso criar html dentro de funções
 const element = 'Digital Innovation One'
 const element2 = <h1>Olá turma =D</h1>
 
-const App = () => { //Component
+const App = () => { 
     
     return(
         <div className="App">
             {primeiroJSX()} {/* Função JS no react deve estar dentro de {} */}
             {element}
             {element2}
-            <Button onClick ={()=>sum(10, 5)} name='Resultado da soma'/>
+            <Button onClick ={()=>sum(10, 5)} name='Resultado da soma' /* Component*/ />
         </div>
     )
 }

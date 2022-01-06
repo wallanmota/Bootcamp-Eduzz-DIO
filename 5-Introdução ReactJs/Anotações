@@ -1,6 +1,6 @@
-React
+# React
 
-Configuração
+# Configuração
     * npm init
     * npm install --save-dev react@16.8.6(versao) react-dom@16.8.6 react-scripts@3.0.1(monta o server)
 
@@ -13,7 +13,7 @@ Configuração
         index.js -> arquivo de react (onde são feito os imports)
         style.css -> react exige a criação do css
 
-Os Scrips do package.json devem estar conforme abaixo:
+# Os Scrips do package.json devem estar conforme abaixo:
     "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -24,5 +24,11 @@ Os Scrips do package.json devem estar conforme abaixo:
   Conforme a documentação pode ser instalado com o comando 
     * npx create-react-app my-app
 
-Boa prática:
+# Boa prática:
     nome de arquivos de Componentes, Paginas usar CamelCase
+
+# Estado de ciclo de vida
+    * Inicialização;
+    * Montagem;
+    * Atualização;
+    * Desmontagem.
