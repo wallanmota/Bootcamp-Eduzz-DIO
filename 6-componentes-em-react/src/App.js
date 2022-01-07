@@ -1,4 +1,5 @@
 import Item from "./components/Item"; //React entende que dentro da pasta tem q buscar o indes.js
+import Card from "./components/Card"
 
 const App = () => {
   return( //react fragment (<> </>) trabalhar com componentes irmão se nao quiser usar div
@@ -10,6 +11,7 @@ const App = () => {
         <Item>Item 2</Item>
         <Item>Item 3</Item>
       </ul>
+      <Card/>
     </>
   )
 }
