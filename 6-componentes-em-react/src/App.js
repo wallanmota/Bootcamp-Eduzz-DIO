@@ -1,21 +1,14 @@
+import Item from "./components/Item"; //React entende que dentro da pasta tem q buscar o indes.js
+
 const App = () => {
   return( //react fragment (<> </>) trabalhar com componentes irmão se nao quiser usar div
     <> 
       <h1>Minha primeira aplicação com React</h1>
       <ul>
-        <a href="/" className="list-group-item list-group-item-action list-group-item-dark">
-          Item 1
-        </a>
-      
-      
-        <a href="/" className="list-group-item list-group-item-action list-group-item-dark">
-          Item 2
-        </a>
-      
-      
-        <a href="/" className="list-group-item list-group-item-action list-group-item-dark">
-          Item 3
-        </a>
+        {/* <Item texto='Item1' /> Forma1 */}
+        <Item>Item 1</Item>
+        <Item>Item 2</Item>
+        <Item>Item 3</Item>
       </ul>
     </>
   )
