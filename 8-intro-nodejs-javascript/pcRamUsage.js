@@ -13,6 +13,7 @@ setInterval(() => {
         FreeRAM: `${parseInt(fRam)} MB`,
         Usage: `${usage.toFixed(2)} %`
     }
-    console.clear()
-    console.table(stats)
+    console.clear();
+    console.table(stats);
+    exports.stats = stats;
 }, 1000);
